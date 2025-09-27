@@ -6,3 +6,13 @@
 .inter{
   font-family: "Inter", sans-serif;
 }
+.usd::before {
+    content: '';
+    position: absolute;
+    top: 36px;
+    left: -6px;
+    width: 100px;
+    height: 2px;
+    background: red;
+    transform: rotate(171deg);
+}
