@@ -5,80 +5,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exclusive Bundle Offer - Bit Apps</title>
-    <!-- Font Awesome -->
+    <!--  ====================== Font Awesome ====================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Tailwind + DaisyUI -->
+    <!--  ====================== Tailwind + DaisyUI ====================== -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/daisyui@4/dist/full.js"></script>
 
-    <!-- Custom CSS -->
+
+    <!--  ====================== Custom CSS ====================== -->
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body class="inter m-0 p-0">
-    <!-- Top section -->
-    <section class="bg-[#003641] py-4 sticky top-0 z-50">
-        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6 justify-between items-center">
 
-            <!-- Title -->
-            <div class="text-center md:text-left">
-                <h2 class="bricolage-grotesque text-lg md:text-xl text-white leading-[26px] font-light">
-                    Bit Apps Agency <br>
-                    <span class="font-bold">Lifetime Bundle</span>
-                </h2>
-            </div>
 
-            <!-- Countdown -->
-            <div id="countdown" class="grid grid-cols-4 gap-3 text-center justify-center text-white">
-                <div class="flex flex-col">
-                    <span class="countdown font-mono text-2xl md:text-3xl" id="days">00</span>
-                    <span class="text-xs md:text-sm">days</span>
-                </div>
-                <div class="flex flex-col">
-                    <span class="countdown font-mono text-2xl md:text-3xl" id="hours">00</span>
-                    <span class="text-xs md:text-sm">hours</span>
-                </div>
-                <div class="flex flex-col">
-                    <span class="countdown font-mono text-2xl md:text-3xl" id="minutes">00</span>
-                    <span class="text-xs md:text-sm">min</span>
-                </div>
-                <div class="flex flex-col">
-                    <span class="countdown font-mono text-2xl md:text-3xl" id="seconds">00</span>
-                    <span class="text-xs md:text-sm">sec</span>
-                </div>
-            </div>
+    <header class="bg-gradient-to-r from-[#001118] to-[#003234] ">
+        <!--  ====================== Top section ====================== -->
+        <section class="bg-[#003641] py-4 md:sticky top-0 z-50  mb-8 ">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6 md:justify-between items-center">
 
-            <!-- Pricing -->
-            <div
-                class="text-white flex flex-col md:flex-row md:items-center md:gap-4 gap-2 justify-center md:justify-start">
-                <div>
-                    <h4 class="text-[11px] md:text-[12px] font-light">Total Regular Price</h4>
-                    <div class="text-2xl md:text-3xl bricolage-grotesque relative">
-                        <span class="usd text-xl md:text-2xl">$</span>2966
+                <!-- Title -->
+                <div class="text-center md:text-left">
+                    <h2 class="bricolage-grotesque text-lg md:text-xl text-white leading-[26px] font-light">
+                        Bit Apps Agency <br>
+                        <span class="font-bold">Lifetime Bundle</span>
+                    </h2>
+                </div>
+
+                <!-- Countdown -->
+                <div id="countdown" class="grid grid-cols-4 gap-3 text-center justify-center text-white">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-2xl md:text-3xl" id="days">00</span>
+                        <span class="text-xs md:text-sm">days</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-2xl md:text-3xl" id="hours">00</span>
+                        <span class="text-xs md:text-sm">hours</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-2xl md:text-3xl" id="minutes">00</span>
+                        <span class="text-xs md:text-sm">min</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-2xl md:text-3xl" id="seconds">00</span>
+                        <span class="text-xs md:text-sm">sec</span>
                     </div>
                 </div>
-                <h1 class="text-[#f6ff00] text-4xl md:text-5xl font-semibold">
-                    <span class="text-2xl md:text-3xl">$</span>1479
-                </h1>
+
+                <!-- Pricing -->
+                <div
+                    class="text-white flex flex-col md:flex-row md:items-center md:gap-4 gap-2 justify-center md:justify-start">
+                    <div>
+                        <h4 class="text-[11px] md:text-[12px] font-light">Total Regular Price</h4>
+                        <div class="text-2xl md:text-3xl bricolage-grotesque relative">
+                            <span class="usd text-xl md:text-2xl">$</span>2966
+                        </div>
+                    </div>
+                    <h1 class="text-[#f6ff00] text-4xl md:text-5xl font-semibold">
+                        <span class="text-2xl md:text-3xl">$</span>1479
+                    </h1>
+                </div>
+
+                <!-- Button -->
+                <div class="flex justify-center md:justify-end">
+                    <button
+                        class="bg-[#feee00] text-base md:text-xl lg:text-2xl font-semibold px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-yellow-400 transition">
+                        Save 51% Now
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!--  ====================== Nav scetion ======================  -->
+        <section class="container mx-auto  drawer mb-10">
+            <input id="menu-drawer" type="checkbox" class="drawer-toggle" />
+
+            <!-- Page content -->
+            <div class="drawer-content flex flex-col">
+                <div class="navbar bg-[#000c0c] text-white justify-between shadow-3xl border border-[#ffffff6b] rounded-2xl mb-10 px-5 py-4">
+                    <div class="navbar-start">
+                        <a href="#">
+                            <img src="assete/Logo/Bit-Apps-Orginal-Logostroke-1.svg" class="max-[100%] h-auto">
+                        </a>
+                    </div>
+
+                    <div class="hidden lg:flex flex-1 justify-around items-center">
+                        <ul class="menu menu-horizontal px-1 text-lg">
+                            <li><a class="hover:text-blue-600">Products</a></li>
+                            <li><a class="hover:text-blue-600">Plugin Hub</a></li>
+                            <li><a class="hover:text-blue-600">Resources</a></li>
+                            <li><a class="hover:text-blue-600">Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="lg:hidden">
+                        <label for="menu-drawer" class="btn btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </label>
+                    </div>
+
+                    <button class=" hidden md:block bg-gradient-to-b from-[#000102] to-[#068a8f9d] border border-[#ffffff93] px-5 py-3 text-xl font-semibold rounded-2xl">Sing Up</button>
+                </div>
             </div>
 
-            <!-- Button -->
-            <div class="flex justify-center md:justify-end">
-                <button
-                    class="bg-[#feee00] text-base md:text-xl lg:text-2xl font-semibold px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-yellow-400 transition">
-                    Save 51% Now
-                </button>
+            <!-- Sidebar -->
+            <div class="drawer-side">
+                <label for="menu-drawer" class="drawer-overlay"></label>
+                <div class="p-4 w-64 min-h-full bg-base-100">
+                    <div class="flex justify-between">
+                        <h5 class="font-semibold text-lg mb-2">Menu</h5>
+                        <label for="menu-drawer"
+                            class="text-xl text-gray-600 hover:text-gray-800 font-semibold">✕</label>
+                    </div>
+                    <hr class="mb-4">
+                    <ul class="space-y-2 font-medium">
+                        <li><a class="hover:text-blue-600">Products</a></li>
+                        <li><a class="hover:text-blue-600">Plugin Hub</a></li>
+                        <li><a class="hover:text-blue-600">Resources</a></li>
+                        <li><a class="hover:text-blue-600">Support</a></li>
+                    </ul>
+                </div>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <!--  ====================== Nav scetion end ====================== -->
 
-
-
-
-    <header>
-      <p>Lorem*100</p>
     </header>
     <main></main>
     <footer></footer>
