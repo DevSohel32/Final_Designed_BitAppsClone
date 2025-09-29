@@ -30,7 +30,7 @@ updateCountdown();
 
     if (isOpen) {
       fabMenu.classList.add('hidden');
-      mainFab.textContent = 'F';
+      mainFab.innerHTML = '<img src="assete/banner/bit-assist-original-icon.svg">';
     } else {
       fabMenu.classList.remove('hidden');
       mainFab.textContent = '✕';
