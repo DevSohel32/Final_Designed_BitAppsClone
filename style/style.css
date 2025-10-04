@@ -106,39 +106,42 @@
 
 }
 
-.BitForm:after {
-  content: " ";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 150px;
-}
 
-.Lifetime::before {
-  content: "★";
-  color: #C100C4;
-  position: absolute;
-  right: 197px;
-  top: -25px;
-  font-size: 24px;
+@media screen and (min-width: 768px) {
+  .BitForm:after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+  }
 
-
-}
-
-.Lifetime::after {
-  content: "★";
-  color: #C100C4;
-  position: absolute;
-  right: 187px;
-  top: -1px;
-  font-size: 18px;
+  .Lifetime::before {
+    content: "★";
+    color: #C100C4;
+    position: absolute;
+    right: 197px;
+    top: -25px;
+    font-size: 24px;
 
 
+  }
 
-}
-.Lifetimeleft::after{
-   content: " ";
+  .Lifetime::after {
+    content: "★";
+    color: #C100C4;
+    position: absolute;
+    right: 187px;
+    top: -1px;
+    font-size: 18px;
+
+
+
+  }
+
+  .Lifetimeleft::after {
+    content: " ";
     width: 2.5px;
     height: calc(100% - 52px);
     background: #2F2F2F;
@@ -147,30 +150,32 @@
     /* z-index: -1; */
     top: 49.5%;
     transform: translateY(-50%);
-}
-.Lifetimeleft::before{
+  }
+
+  .Lifetimeleft::before {
     content: "Total Regular Price";
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
     color: #585858;
     position: absolute;
-    right: -215px; 
+    right: -185px;
     top: 43%;
-    transform: translateY(-50%)
-}
-.BitSocial::after{
-  content: '';
-  width: 100%;
-  height: 12px;
-  background: url('../assete/hero/arrow.webp') no-repeat;
-  position: absolute;
-  right: -112.5%;
+    transform: translateY(-50%);
+  }
 
-}
-.BitForm::before,
-.BitSocial::before
-{
+  .BitSocial::after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background: url('../assete/hero/arrow.webp') no-repeat;
+    position: absolute;
+    right: -112.5%;
+
+  }
+
+  .BitForm::before,
+  .BitSocial::before {
     content: " ";
     width: 42px;
     height: 3px;
@@ -179,9 +184,41 @@
     right: -42px;
 
 
-}
-.BitSocial::before{
-     width: 186px;
+  }
+
+  .BitSocial::before {
+    width: 193px;
     height: 3px;
-    right: -186px;
+    right: -192px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .BitSocial::after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background: url(../assete/hero/arrow.webp) no-repeat;
+    position: absolute;
+    right: 0.5%;
+    bottom: -234px;
+    transform: rotate(90deg);
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+      .BitSocial::after {
+        content: '';
+        width: 100%;
+        height: 12px;
+        background: url(../assete/hero/arrow.webp) no-repeat;
+        position: absolute;
+        right: 0.5%;
+        bottom: -124px;
+        transform: rotate(90deg);}
+
 }
