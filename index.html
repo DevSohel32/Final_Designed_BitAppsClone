@@ -8,8 +8,7 @@
 
     <title>Exclusive Bundle Offer - Bit Apps</title>
     <!--  ====================== Font Awesome ====================== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <!--  ====================== Tailwind + DaisyUI ====================== -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -257,7 +256,7 @@
         <!--  ====================== Banner scetion end ====================== -->
 
     </header>
-    <main>
+    <main class="max-w-7xl mx-auto">
         <!--  ====================== Our  Products ====================== -->
         <!-- <section class="container mx-auto md:text-center my-20">
             <h1
@@ -275,7 +274,7 @@
 
 
         <!--  ====================== Our Products carousel Brilliance  ====================== -->
-        <section class="container mx-auto grid justify-center items-center my-28 px-4 lg:px-0 ">
+        <section class="container  my-32 px-4 lg:px-0 ">
             <h1
                 class="bricolage-grotesque text-3xl md:text-5xl lg:text-6xl font-bold mb-12 md:mb-14 text-center lg:tracking-wider text-gray-600">
                 Professional’s
@@ -443,7 +442,7 @@
 
         <!--  ====================== Plugin Hub ====================== -->
 
-        <section class="container mx-auto my-20 mb-40 grid justify-center relative">
+        <section class="container mx-auto my-32 mb-40  relative">
             <!-- Heading -->
             <h1
                 class="bricolage-grotesque md:text-5xl text-3xl font-bold md:mb-8 mb-4 text-center tracking-wider text-gray-600">
@@ -560,9 +559,7 @@
         <!--  ====================== Plugin Hub end ====================== -->
 
         <!--  ====================== 51% Off ====================== -->
-
-
-        <section class="conteinar grid justify-center  my-20">
+        <section class="conteinar  my-32">
             <div
                 class="grid md:grid-cols-3 lg:gap-32 bg-[linear-gradient(95.78deg,#F9F2FF_7.74%,#E6F5FF_92.45%)] border rounded-2xl border-[#737AC7] p-10">
                 <div class="ml-10 flex flex-col items-center justify-center">
@@ -685,26 +682,63 @@
 
         </section>
 
-
-
-
-
-
-
         <!--  ====================== 51% Off end ====================== -->
-    </main>
-    <div class="fab fixed bottom-20 right-4 flex flex-col items-end gap-2">
-        <!-- Main FAB -->
-        <button id="mainFab" class="btn btn-lg btn-circle btn-info">
-            <img src="assete/banner/bit-assist-original-icon.svg">
-        </button>
 
-        <!-- Hidden buttons -->
-        <div id="fabMenu" class="flex flex-col items-end gap-2 hidden">
-            <button class="btn btn-lg btn-circle">A</button>
-            <button class="btn btn-lg btn-circle">B</button>
-            <button class="btn btn-lg btn-circle">C</button>
-        </div>
+
+        <!--  ======================Demo section  ====================== -->
+        <section class="container my-32 relative">
+            <div
+                class="hero bg-white md:shadow-2xl py-12 md:py-20 rounded-xl border border-gray-300 relative z-10 overflow-hidden">
+                <div class="hero-content text-center z-10">
+                    <div class="space-y-7">
+                        <div class="flex justify-center">
+                            <img src="assete/Logo/towp-logo.svg" alt="Logo" class="w-32 sm:w-40 md:w-48 lg:w-56" />
+                        </div>
+
+                        <div>
+                            <h1
+                                class="text-3xl sm:text-4xl md:text-5xl font-bold bricolage-grotesque leading-snug md:leading-[60px]">
+                                <span class="text-blue-500">Temporary WordPress sites to test</span>
+                                <br class="hidden sm:block" />
+                                plugins and themes for free
+                            </h1>
+                        </div>
+                        <div class="space-y-3">
+                            <button
+                                class="btn btn-primary text-lg sm:text-xl transform duration-300 hover:scale-105 px-6 sm:px-8 py-2 sm:py-3">
+                                Test Demo Now
+                            </button>
+                            <h2 class="text-base sm:text-lg font-semibold">
+                                <span class="text-blue-700">100%</span> Free
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🔵 Shape & Line under hero -->
+                <div class="absolute left-0 bottom-0 z-1">
+                    <img src="assete/hero/line.svg" alt="Decorative Line">
+                </div>
+
+            </div>
+            <div class="absolute lg:-right-20 lg:-top-16 -right-5 -top-5 -z-0 ">
+                <img src="assete/hero/shape.svg" alt="Decorative Shape" class="w-32 sm:w-48 md:w-64 lg:w-72">
+            </div>
+        </section>
+
+        <!--  ======================Demo section end ====================== -->
+
+    </main>
+
+    <!-- Main FAB -->
+    <a href="index.html" class="fixed flex items-center justify-center bottom-20 right-4 p-4 w-20 h-20 rounded-full bg-gray-400 transform duration-300 ">
+        <span class="text-[#fff702] text-3xl">
+            <i class="fa-solid fa-up-long"></i>
+        </span>
+    </a>
+
+
+
     </div>
 
     <footer></footer>
