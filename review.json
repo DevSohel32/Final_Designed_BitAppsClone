@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Emily Johnson",
+    "email": "emily.johnson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/emilys/128",
+    "rating": 4,
+    "description": "The product quality is impressive for the price. I received it on time, and packaging was neat. It performs just as described. I’ve been using it for a week now and so far everything works perfectly without any issue."
+  },
+  {
+    "id": 2,
+    "name": "Michael Williams",
+    "email": "michael.williams@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "rating": 5,
+    "description": "Absolutely amazing! The product exceeded my expectations in every way. The design is sleek, functionality is smooth, and it feels premium. Customer service was also quick and helpful when I had a small query about installation."
+  },
+  {
+    "id": 3,
+    "name": "Sophia Brown",
+    "email": "sophia.brown@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/sophiab/128",
+    "rating": 3,
+    "description": "Decent quality but could be improved. It looks great, but performance wasn’t as consistent as I hoped. Delivery was fast though, and packaging was fine. Works well for light use but not ideal for daily heavy work."
+  },
+  {
+    "id": 4,
+    "name": "James Davis",
+    "email": "james.davis@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/jamesd/128",
+    "rating": 4,
+    "description": "Very satisfied overall. It works exactly as mentioned and setup was simple. I’ve been using it for a few days and the results are impressive. Would recommend it to anyone looking for good value at this price."
+  },
+  {
+    "id": 5,
+    "name": "Emma Miller",
+    "email": "emma.miller@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/emmaj/128",
+    "rating": 5,
+    "description": "I’m genuinely impressed with this product! The build quality is solid, and the performance is excellent. It looks modern and stylish too. I’d definitely purchase again and recommend it to my friends without hesitation."
+  },
+  {
+    "id": 6,
+    "name": "Olivia Wilson",
+    "email": "olivia.wilson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/oliviaw/128",
+    "rating": 2,
+    "description": "The product didn’t meet my expectations. It arrived on time but the quality was below average. Some parts felt cheap, and I experienced minor issues during use. I hope future versions will fix these problems."
+  },
+  {
+    "id": 7,
+    "name": "Alexander Jones",
+    "email": "alexander.jones@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/alexanderj/128",
+    "rating": 4,
+    "description": "Good value for the money. It’s simple to use and looks just as shown in the pictures. The performance is decent, and the battery lasts long enough. I’m mostly happy with this purchase and would recommend."
+  },
+  {
+    "id": 8,
+    "name": "Ava Taylor",
+    "email": "ava.taylor@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/avat/128",
+    "rating": 5,
+    "description": "I absolutely love this product! It feels premium, works smoothly, and looks stylish. Everything from packaging to delivery was handled professionally. I’ve already ordered another one as a gift for my friend. Highly recommend."
+  },
+  {
+    "id": 9,
+    "name": "Ethan Martinez",
+    "email": "ethan.martinez@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/ethanm/128",
+    "rating": 3,
+    "description": "It’s okay for the price but not perfect. Some minor issues with build quality, though the core function works fine. It’s suitable for beginners or occasional users but might not satisfy professional expectations."
+  },
+  {
+    "id": 10,
+    "name": "Isabella Anderson",
+    "email": "isabella.anderson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/isabellad/128",
+    "rating": 4,
+    "description": "This product works really well. The setup was easy and user-friendly. It performs efficiently without any major problem so far. Delivery was quick, and I appreciate the seller’s responsiveness. Worth buying overall."
+  },
+  {
+    "id": 11,
+    "name": "Liam Garcia",
+    "email": "liam.garcia@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/liamg/128",
+    "rating": 2,
+    "description": "Unfortunately, I wasn’t happy with this purchase. The item didn’t perform as advertised and had some defects. The return process was fine, though. Hoping the company improves their quality control soon."
+  },
+  {
+    "id": 12,
+    "name": "Mia Rodriguez",
+    "email": "mia.rodriguez@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/miar/128",
+    "rating": 5,
+    "description": "Fantastic product! Everything from the design to performance is top-notch. The attention to detail is impressive, and I had no issues at all. Definitely worth the price and a must-buy for anyone considering it."
+  },
+  {
+    "id": 13,
+    "name": "Emily Johnson",
+    "email": "emily.johnson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/emilys/128",
+    "rating": 4,
+    "description": "I’ve used this product daily for two weeks and it still performs great. It’s easy to handle, and I love the minimal design. The manual was clear and setup took just a few minutes to complete."
+  },
+  {
+    "id": 14,
+    "name": "Michael Williams",
+    "email": "michael.williams@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "rating": 3,
+    "description": "A mixed experience overall. The product works fine but not as smooth as expected. There were a few flaws in design, though customer service quickly offered help. It’s okay, but not something I’d repurchase soon."
+  },
+  {
+    "id": 15,
+    "name": "Sophia Brown",
+    "email": "sophia.brown@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/sophiab/128",
+    "rating": 5,
+    "description": "This product exceeded my expectations! The materials feel premium, and it performs beyond what’s advertised. I’ve already recommended it to family members. Totally worth every penny spent on it. Great work by the manufacturer."
+  },
+  {
+    "id": 16,
+    "name": "James Davis",
+    "email": "james.davis@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/jamesd/128",
+    "rating": 4,
+    "description": "I like how functional and reliable this product is. The battery life is solid, and it does its job very well. The only minor issue I noticed was with the buttons, but overall it’s excellent."
+  },
+  {
+    "id": 17,
+    "name": "Emma Miller",
+    "email": "emma.miller@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/emmaj/128",
+    "rating": 5,
+    "description": "One of the best purchases I’ve made this year! It looks elegant, works perfectly, and the customer support was amazing. It truly feels like a premium product at a reasonable price point. Highly satisfied overall."
+  },
+  {
+    "id": 18,
+    "name": "Olivia Wilson",
+    "email": "olivia.wilson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/oliviaw/128",
+    "rating": 3,
+    "description": "The product is okay but not flawless. Delivery took longer than expected, but everything arrived safely. It works decently and looks nice. I hope the next version comes with improved durability and faster performance."
+  },
+  {
+    "id": 19,
+    "name": "Alexander Jones",
+    "email": "alexander.jones@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/alexanderj/128",
+    "rating": 4,
+    "description": "A very good product for everyday use. It’s reliable, comfortable to use, and performs just as advertised. I’m happy with this purchase and would buy again when needed. Highly recommended for casual or professional users."
+  },
+  {
+    "id": 20,
+    "name": "Ava Taylor",
+    "email": "ava.taylor@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/avat/128",
+    "rating": 5,
+    "description": "Simply outstanding! The design is modern and the usability is impressive. It worked perfectly straight out of the box. I loved how responsive customer care was. Would definitely recommend this to anyone looking for quality."
+  },
+  {
+    "id": 21,
+    "name": "Ethan Martinez",
+    "email": "ethan.martinez@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/ethanm/128",
+    "rating": 2,
+    "description": "Not the best experience. The build quality was disappointing and the product didn’t work as efficiently as advertised. It’s fine for temporary use but not something I’d keep long-term. Needs improvement in key areas."
+  },
+  {
+    "id": 22,
+    "name": "Isabella Anderson",
+    "email": "isabella.anderson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/isabellad/128",
+    "rating": 4,
+    "description": "The product looks great and performs quite well. Delivery was fast and the packaging was safe. I liked the overall design and ease of use. Some small details could be improved but still worth the price."
+  },
+  {
+    "id": 23,
+    "name": "Liam Garcia",
+    "email": "liam.garcia@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/liamg/128",
+    "rating": 3,
+    "description": "A fairly average experience. Nothing too bad, but also nothing extraordinary. It gets the job done and that’s what matters. I might look for alternatives next time though. Still, it’s fine for short-term use."
+  },
+  {
+    "id": 24,
+    "name": "Mia Rodriguez",
+    "email": "mia.rodriguez@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/miar/128",
+    "rating": 5,
+    "description": "Excellent product overall! It feels durable and premium in hand. The performance is consistent and reliable. Delivery was timely and I’m very happy with my purchase. Definitely a product I’d buy again for future use."
+  },
+  {
+    "id": 25,
+    "name": "Emily Johnson",
+    "email": "emily.johnson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/emilys/128",
+    "rating": 4,
+    "description": "Impressive long-term performance! I’ve been using it daily and it’s holding up perfectly. The materials feel durable and the design is comfortable. I wish it came in more colors, but that’s a minor thing."
+  },
+  {
+    "id": 26,
+    "name": "Michael Williams",
+    "email": "michael.williams@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "rating": 4,
+    "description": "Great quality and fast shipping. I’m very satisfied with the purchase. It performs better than I expected and the build feels strong. If you want something affordable and reliable, this is definitely a good option."
+  },
+  {
+    "id": 27,
+    "name": "Sophia Brown",
+    "email": "sophia.brown@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/sophiab/128",
+    "rating": 5,
+    "description": "Truly amazing! I wasn’t expecting this level of quality for the price. The performance, design, and durability are all excellent. It works flawlessly, and I’d easily rate it among the best in this category."
+  },
+  {
+    "id": 28,
+    "name": "James Davis",
+    "email": "james.davis@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/jamesd/128",
+    "rating": 3,
+    "description": "The product is good but not perfect. Some small flaws in design make it less convenient to use. However, performance-wise, it’s stable and delivers what’s promised. I’d consider it a decent option for the cost."
+  },
+  {
+    "id": 29,
+    "name": "Emma Miller",
+    "email": "emma.miller@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/emmaj/128",
+    "rating": 5,
+    "description": "Amazing quality and packaging. The setup was simple and fast. I’ve used it daily and it still looks brand new. Customer care was quick to respond to my questions. I’m beyond happy with this product."
+  },
+  {
+    "id": 30,
+    "name": "Olivia Wilson",
+    "email": "olivia.wilson@x.dummyjson.com",
+    "image": "https://dummyjson.com/icon/oliviaw/128",
+    "rating": 4,
+    "description": "A very decent product overall. It looks good, feels solid, and performs well. There were a few minor issues, but nothing serious. Definitely a good purchase for someone looking for both style and functionality."
+  }
+]
