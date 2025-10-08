@@ -229,6 +229,14 @@
   display: block;
   width: 100%;
 }
+.icon { 
+  background-image: url("data:image/svg+xml;utf8,%3Csvg...%3E");
+  width: 20px; 
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+}
 
 
 @media screen and (max-width: 768px) {
